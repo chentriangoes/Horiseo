@@ -1,3 +1,11 @@
+/*! \brief GENERAL STYLES set style for the parent container.
+           Background color are set to grey.
+           No width and height and zero margin are set.
+
+    The general font style is not set. It is default unless
+    defined elsewhere.  
+ */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,6 +14,39 @@
 body {
     background-color: #d9dcd6;
 }
+
+/*! \brief HEADER sets content with padding in 20px.
+           It sets background color to blue-green.
+           Text color in the header container is set white.
+ 
+   The general style of header's font family is adjusted
+   accordingly to reflect the environment of user's browser.
+
+   The offered font family starts with 'Trebuchet MS' and
+   followed by 'Lucida Sans Unicode', 'Lucida Grande',
+   'Lucida Sans' and 'Arial', 'sans-serif'.
+
+   The header h1 displays content in inline-box style to  
+   keep each container the company's name inline with each
+   other and "seo" used strong as an element selector
+   is greyer than other characters.
+
+   The general style for the header nav sets the navigating
+   container in top padding with 15px and right margin with
+   20px. The elemets within nav container float to the right.
+
+   The offered font family starts with 'Gill Sans' and
+   followed by 'Gill Sans MT', Calibri, 'Trebuchet MS', and 
+   'sans-serif' sized to 20px.
+
+   The header nav li displays listed content in inline-box
+   style to keep navigation tags positioned similar to the
+   company's name. The margin for the container of the listed
+   content sets to be left with 25px.
+
+   The hyperlink sets the font color to white and
+   text-decoration to not be underscored. 
+*/
 
 header {
     padding: 20px;
@@ -19,7 +60,7 @@ h1 {
     font-size: 48px;
 }
 
-.seo {
+strong {
     color: #d9dcd6;
 }
 
@@ -41,9 +82,12 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
+/*! \brief HERO SECTION sets style for the container of backgroud image.
+           It has height in 800px and bottom margin in 25px.
+
+    The background image is resized to cover the entire 
+    container and positioned to center.
+*/
 
 .hero {
     height: 800px;
@@ -52,10 +96,40 @@ p {
     background-position: center;
 }
 
+/*! \brief BUSINESS SERVICES MAIN sets the style of its container.
+           It sets display to inline-block followed by aside.
+           The left margin is set to 20px.
+           Text color is set to white.
+ 
+   The .service sets the general style for each of three service 
+   containers to bottom margin in 20px, padding in 50px and height 
+   in 300px. The offered font family starts with 'Gill Sans' and
+   followed by 'Gill Sans MT', 'Calibri', 'Trebuchet MS' and 
+   'sans-serif' against background color in blue.
+   
+   The h2 sets the general style for the containers
+   of headings of three provided services to margin-bottom in
+   20px and font sized 36px.
+
+   The .service img sets the general style for each image in 
+   relation to maximum height in 200px.
+
+   The .float-left sets the service of "search-engine-
+   optimization" and "social-media-marketing" to float left and
+   both images to have margin-right in 25px.  
+
+   The .float-right sets the service of "online-reputation-
+   management" to float right and its image to have margin-left
+   in 25px.
+
+   The p sets the font-size of the content to 16px.
+*/
+
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    color: #ffffff;
 }
 
 .service {
@@ -64,7 +138,7 @@ main {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
+    
 }
 
 .service img {
@@ -85,6 +159,32 @@ h2 {
     float: right;
     margin-left: 25px;
 }
+
+p {
+    font-size: 16px;
+}
+
+/*! \brief BENEFITS ASIDE sets the general style of its container.
+ 
+   The aside container sets style to both margin-right and pading
+   in 20px. It floats to right with width 20% against the parent
+   container. The offered font family is adjusted accordingly and 
+   starts with 'Gill Sans' and followed by 'Gill Sans MT',
+   'Calibri', 'Trebuchet MS' and 'sans-serif' colored in white 
+   against background color in blue.
+
+   The .benefit sets the general style for each container of 
+   three benefits to margin bottome in 32px.
+
+   The h3 sets the general style for the containers
+   of headings of three illustrated benefits to margin-bottom in
+   10px and text aligned in center.
+   
+   The .benefit img sets the general style for each image in 
+   relation to the illustrated benefits to be displayed in block
+   of the top and bottome margin in 10px and the right and left
+   calculated by the browser. The maximum width is 150px.
+*/
 
 aside {
     margin-right: 20px;

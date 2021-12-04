@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
 }
 
@@ -30,10 +29,6 @@ nav {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-ul {
-    list-style-type: none;
 }
 
 li {
@@ -94,17 +89,15 @@ h2 {
 aside {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
     float: right;
     width: 20%;
-    height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    color: #ffffff;
 }
 
 .benefit {
     margin-bottom: 32px;
-    color: #ffffff;
 }
 
 h3 {

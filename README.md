@@ -19,4 +19,4 @@ This project is to refactory *Horiseon's website* providing information about th
 
 ## 🔗 Link 🔗
 
-https://chentriangoes.github.io/Horiseo/
+https://chentriangoes.github.io/Horiseon/
